@@ -124,6 +124,23 @@ struct SettingsView: View {
                 TextField("Type Keywords", text: $keyword)
 
             }
+        
+           // Section("Keywords"){
+      
+        }
+        .onTapGesture {
+            if(selectedSource){
+                category = ""
+            }
+            if(selectedCategory){
+                source = ""
+            }
+           
+          //  if(!showKeyboard){
+                isFocused = false
+           // navigate = true
+        }
+            
             Button (action: {
                 UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound, .badge]) {(status,_)in
                     if status {
@@ -144,23 +161,6 @@ struct SettingsView: View {
                 Text("Notification")
                 
             }
-           // Section("Keywords"){
-      
-        }
-        .onTapGesture {
-            if(selectedSource){
-                category = ""
-            }
-            if(selectedCategory){
-                source = ""
-            }
-           
-          //  if(!showKeyboard){
-                isFocused = false
-           // navigate = true
-        }
-            
-   
             
         }
 }
