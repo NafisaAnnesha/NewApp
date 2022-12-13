@@ -14,11 +14,12 @@
 		1247DD7E2944206300DBEC7A /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1247DD7D2944206300DBEC7A /* News.swift */; };
 		1247DD802944237400DBEC7A /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1247DD7F2944237400DBEC7A /* Helper.swift */; };
 		1247DD822944241900DBEC7A /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1247DD812944241900DBEC7A /* Constant.swift */; };
-		1247DD842945754600DBEC7A /* ShowWebpage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1247DD832945754600DBEC7A /* ShowWebpage.swift */; };
-		1247DD8629457EA500DBEC7A /* WebsiteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1247DD8529457EA500DBEC7A /* WebsiteView.swift */; };
 		1247DD8829458C8600DBEC7A /* WebViewRep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1247DD8729458C8600DBEC7A /* WebViewRep.swift */; };
 		1247DD8A294590B300DBEC7A /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1247DD89294590B300DBEC7A /* WebView.swift */; };
-		1247DD8C294590D300DBEC7A /* TabType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1247DD8B294590D300DBEC7A /* TabType.swift */; };
+		1247DD8E2945AC0F00DBEC7A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1247DD8D2945AC0F00DBEC7A /* SettingsView.swift */; };
+		125DE3D4294679540011F8AD /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125DE3D3294679540011F8AD /* DetailView.swift */; };
+		125DE3D62947D8860011F8AD /* Bundle+Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125DE3D52947D8860011F8AD /* Bundle+Info.swift */; };
+		125DE3D82947D8C00011F8AD /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125DE3D72947D8C00011F8AD /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,11 +31,13 @@
 		1247DD7D2944206300DBEC7A /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
 		1247DD7F2944237400DBEC7A /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		1247DD812944241900DBEC7A /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
-		1247DD832945754600DBEC7A /* ShowWebpage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowWebpage.swift; sourceTree = "<group>"; };
-		1247DD8529457EA500DBEC7A /* WebsiteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteView.swift; sourceTree = "<group>"; };
 		1247DD8729458C8600DBEC7A /* WebViewRep.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewRep.swift; sourceTree = "<group>"; };
 		1247DD89294590B300DBEC7A /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
-		1247DD8B294590D300DBEC7A /* TabType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabType.swift; sourceTree = "<group>"; };
+		1247DD8D2945AC0F00DBEC7A /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		125DE3D3294679540011F8AD /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		125DE3D52947D8860011F8AD /* Bundle+Info.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Info.swift"; sourceTree = "<group>"; };
+		125DE3D72947D8C00011F8AD /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		125DE3D92947D9CA0011F8AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,18 +70,19 @@
 		1247DD682944204100DBEC7A /* NewsApp */ = {
 			isa = PBXGroup;
 			children = (
+				125DE3D92947D9CA0011F8AD /* Info.plist */,
 				1247DD7C2944205700DBEC7A /* Model */,
 				1247DD692944204100DBEC7A /* NewsAppApp.swift */,
 				1247DD89294590B300DBEC7A /* WebView.swift */,
-				1247DD8B294590D300DBEC7A /* TabType.swift */,
+				1247DD8D2945AC0F00DBEC7A /* SettingsView.swift */,
 				1247DD6B2944204100DBEC7A /* ContentView.swift */,
 				1247DD6D2944204200DBEC7A /* Assets.xcassets */,
 				1247DD6F2944204200DBEC7A /* Preview Content */,
 				1247DD7F2944237400DBEC7A /* Helper.swift */,
 				1247DD812944241900DBEC7A /* Constant.swift */,
 				1247DD8729458C8600DBEC7A /* WebViewRep.swift */,
-				1247DD832945754600DBEC7A /* ShowWebpage.swift */,
-				1247DD8529457EA500DBEC7A /* WebsiteView.swift */,
+				125DE3D3294679540011F8AD /* DetailView.swift */,
+				125DE3D72947D8C00011F8AD /* InfoView.swift */,
 			);
 			path = NewsApp;
 			sourceTree = "<group>";
@@ -94,6 +98,7 @@
 		1247DD7C2944205700DBEC7A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				125DE3D52947D8860011F8AD /* Bundle+Info.swift */,
 				1247DD7D2944206300DBEC7A /* News.swift */,
 			);
 			path = Model;
@@ -170,15 +175,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				1247DD822944241900DBEC7A /* Constant.swift in Sources */,
-				1247DD8629457EA500DBEC7A /* WebsiteView.swift in Sources */,
+				125DE3D4294679540011F8AD /* DetailView.swift in Sources */,
 				1247DD6C2944204100DBEC7A /* ContentView.swift in Sources */,
 				1247DD8829458C8600DBEC7A /* WebViewRep.swift in Sources */,
-				1247DD842945754600DBEC7A /* ShowWebpage.swift in Sources */,
+				125DE3D82947D8C00011F8AD /* InfoView.swift in Sources */,
 				1247DD7E2944206300DBEC7A /* News.swift in Sources */,
 				1247DD8A294590B300DBEC7A /* WebView.swift in Sources */,
-				1247DD8C294590D300DBEC7A /* TabType.swift in Sources */,
+				125DE3D62947D8860011F8AD /* Bundle+Info.swift in Sources */,
 				1247DD6A2944204100DBEC7A /* NewsAppApp.swift in Sources */,
 				1247DD802944237400DBEC7A /* Helper.swift in Sources */,
+				1247DD8E2945AC0F00DBEC7A /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +316,9 @@
 				DEVELOPMENT_TEAM = W3RP4XF389;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NewsApp/Info.plist;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright ©2022 ACME Apps Inc.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -319,7 +328,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nannesha.NewsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -339,6 +348,9 @@
 				DEVELOPMENT_TEAM = W3RP4XF389;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NewsApp/Info.plist;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright ©2022 ACME Apps Inc.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -348,7 +360,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nannesha.NewsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
