@@ -1,10 +1,9 @@
 //
 //  WebViewRep.swift
-//  Webster
+//  NewsApp
 //
-//  Created by Arthur Roolfs on 12/1/22.
+//  Created by Nafisa Annesha on 12/9/22.
 //
-
 import Foundation
 import SwiftUI
 import WebKit
