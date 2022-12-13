@@ -35,7 +35,11 @@ struct SettingsView: View {
             Section("Type"){
                 Picker("", selection: $type) {
                     ForEach(types, id: \.self) {
-                        Text($0)
+                        Text($0).animation(
+                            .easeInOut(duration: 2)
+                                .delay(1),
+                            value: 1.0
+                        )
                     }
                 }
                 .pickerStyle(.wheel)
@@ -49,12 +53,17 @@ struct SettingsView: View {
                                 .textFieldStyle(.roundedBorder)
                                 
                                 .focused($isFocused)
+                            
                             }
                         if isFocused == false  {
                     Picker("", selection: $source) {
                         ForEach(sources, id: \.self) {
                            
-                                Text($0)
+                                Text($0).animation(
+                                    .easeInOut(duration: 2)
+                                        .delay(1),
+                                    value: 1.0
+                                )
                             
                         }
                     }
@@ -66,7 +75,7 @@ struct SettingsView: View {
                         
                     }
                     .disabled(selectedSource == false)
-                    Toggle("", isOn: $selectedSource.animation())
+                    Toggle("", isOn: $selectedSource.animation(.easeIn))
                 }
             }.disabled(selectedCategory == true)
         
@@ -107,7 +116,11 @@ struct SettingsView: View {
             Section("Select Language"){
                 Picker("", selection: $language) {
                     ForEach(languages, id: \.self) {
-                        Text($0)
+                        Text($0).animation(
+                            .easeInOut(duration: 2)
+                                .delay(1),
+                            value: 1.0
+                        )
                           
 
                     }

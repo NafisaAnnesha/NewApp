@@ -13,7 +13,7 @@ struct WebView: View {
     @Binding var urlString: String
     @State var state = WebViewRep.State.standby
     @State private var showAlert = false
-    @State var timeRemaining = 7
+    @State var timeRemaining = 5
    let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
     @FocusState var focus: Bool
 
