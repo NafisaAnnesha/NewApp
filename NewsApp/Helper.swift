@@ -9,7 +9,7 @@ import Foundation
 
 
 class Helper: ObservableObject {
-   // @Published var datas = [dataType]()
+
     let fmpUrl = "https://newsapi.org/v2/"
     @Published var news: NewsResponse?
     @Published var found = true
@@ -42,21 +42,14 @@ class Helper: ObservableObject {
                 throw URLError.BadURL
              
             }
-          
-       //     let decoder = JSONDecoder()
+
            Task{@MainActor in
                news =  try JSONDecoder().decode(NewsResponse.self, from: data)
               
-           //    found = true
+    
            }
            
-     //   }
-            
-           
-       //     found = false
-          //  print(found)
-            
-            //return articles
+    
         }
       
     }

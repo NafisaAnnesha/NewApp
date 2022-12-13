@@ -14,7 +14,6 @@ struct SettingsView: View {
     @State private var show = true;
     @State private var types = ["everything", "top-headlines"]
     @State private var sources = [ " Tap to select a Source", "bbc-news", "CNN", "Espn", "abc-news"]
-//    @State private var selectedType = ""
     @State private var categories = ["Tap to select", "business", "entertainment", "general", "health", "science", "sports", "technology"]
     @State private var sort = ["popularity", "relevancy", "publishedAt"]
     @State private var languages = ["ar","de", "en", "es", "fr", "he", "it", "nl","no", "pt", "ru", "sv", "ud", "zh"]
@@ -165,8 +164,3 @@ struct SettingsView: View {
         }
 }
 }
-//struct SettingsView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        SettingsView(type: $type)
-//    }
-//}
